@@ -1,0 +1,43 @@
+<telegramBotInterface>
+    <title>ВИБОРИ ФАІТ BOT</title>
+    <description>Бот призначений для проведення онлайн виборів голови студ. ради факультету ФАІТ КНУБА</description>
+    <content>
+        <button>
+            <label>Назад</label>
+            <action>Повертає назад до всіх чатів</action>
+        </button>
+        <button>
+            <label>Меню</label>
+            <action>Розвернути меню боту (Dropdown List)</action>
+        </button>
+        <button>
+            <label>Attachment</label>
+            <action>Прикріпити файл</action>
+        </button>
+        <inputField>
+            <label>Message</label>
+            <type>text</type>
+            <placeholder>Сообщение</placeholder>
+        </inputField>
+        <button>
+            <label>Stickers</label>
+            <action>Перейти до вибору стікерів</action>
+        </button>
+        <button>
+            <label>Voice message</label>
+            <action>Включити голосвий запис</action>
+        </button>
+        <button>
+            <label>Відправити</label>
+            <action>Відправити повідомлення</action>
+        </button>
+        <button>
+            <label>Start bot</label>
+            <action>Відправити боту повідомлення-команду /startelectionbot </action>
+        </button>
+        <button>
+            <label>Authorization</label>
+            <action>Відправити боту повідомлення-команду /authorization</action>
+        </button>
+    </content>
+</telegramBotInterface>
